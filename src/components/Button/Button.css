@@ -1,0 +1,20 @@
+.btnDefault {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: var(--radius-default);
+    color: var(--text-nav);
+    font-size: var(--text-base);
+    font-weight: var(--weight-500);
+}
+
+.btnDefault.filled {
+    background-color: var(--brand-primary);
+    color: var(--text-on-primary);
+}
+
+.btnDefault.border {
+    border: 2px solid var(--brand-primary);
+    color: var(--brand-primary);
+}
