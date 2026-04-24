@@ -1,0 +1,37 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--brand-bg-screen);
+    padding: 12px 0;
+    box-shadow: 2px 2px 10px #8080801a;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: var(--text-lg);
+    font-weight: var(--weight-700);
+    color: var(--brand-primary);
+    letter-spacing: -1px;
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 28px;
+}
+
+.navbar-menu>li>a {
+    color: var(--text-nav);
+    font-size: var(--text-base);
+    font-weight: var(--weight-400);
+}
+
+.navbar-buttons button {
+    height: 42px;
+}
