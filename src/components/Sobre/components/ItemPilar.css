@@ -1,0 +1,28 @@
+.pilar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.pilar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+
+.pilar-content>h4 {
+    font-size: var(--text-base);
+    font-weight: var(--weight-700);
+    color: var(--text-title);
+    line-height: 24px;
+}
+
+.pilar-content>p {
+    font-size: var(--text-sm);
+    font-weight: var(--weight-400);
+    color: var(--text-body);
+}
