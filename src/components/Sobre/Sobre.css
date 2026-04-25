@@ -1,0 +1,74 @@
+.sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.sobre-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+}
+
+.sobre-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+    max-width: 576px;
+    text-align: left;
+}
+
+.sobre-container>.sobre-content:first-child {
+    gap:16px;
+}
+
+.sobre-container>.sobre-content:first-child h2 {
+    font-size: var(--text-4xl);
+    color: var(--text-title);
+    font-weight: var(--weight-700);
+    line-height: 3rem;
+}
+
+.sobre-container>.sobre-content:first-child p {
+    font-size: var(--text-md);
+    color: var(--text-body);
+    font-weight: var(--weight-400);
+    line-height: 2rem;
+    margin-top: 16px;
+}
+
+.sobre-tag {
+    color: var(--brand-primary);
+    font-weight: var(--weight-700);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+}
+
+.sobre-container>.sobre-content:last-child {
+    padding: 40px;
+    border-radius: var(--radius-default);
+    background-color: var(--surface-white);
+    display: flex;
+    gap: 24px;
+}
+
+.sobre-container>.sobre-content:last-child h3 {
+    font-size: var(--text-xl);
+    color: var(--text-title);
+    line-height: 2rem;
+    font-weight: var(--weight-700);
+}
+
+.pilares {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
