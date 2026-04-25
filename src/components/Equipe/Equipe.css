@@ -1,0 +1,31 @@
+.equipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 80px 0;
+}
+
+.equipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+}
+
+.equipe-container>h2 {
+    color: var(--text-title);
+    font-size: var(--text-3xl);
+    font-weight: var(--weight-700);
+}
+
+.equipe-membros {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 32px;
+    text-align: center;
+}
